@@ -5,10 +5,15 @@
   align-items: center;
   justify-content: center;
   color: white;
+  transition: transform 1.2s ease-in-out;
 }
 
 .card-member-container p {
   font-size: 21px;
+}
+
+.card-member-container p:hover {
+  color: rgba(244, 195, 0, 1);
 }
 
 .face-member {

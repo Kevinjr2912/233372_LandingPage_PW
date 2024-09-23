@@ -7,12 +7,13 @@
 .box-reason {
   width: 1470px;
   margin-left: 100px;
-  margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 
 .title-ask-reason-container {
-  width: 1470px;
+  width: 1220px;
   margin-top: 50px;
+  margin-left: 120px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,6 +41,5 @@
   justify-content: space-evenly;
   gap: 20px;
   margin-top: 30px;
-  margin-bottom: 300px;
 }
 

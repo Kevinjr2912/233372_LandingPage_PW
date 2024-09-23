@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class HomePageComponent {
   reasons = [
     {
-      img: 'https://imgs.search.brave.com/BSBH6N8DZeXNZlzQgsKXn7kzbB4IQArW_CsZwMzJATM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9nY2Ru/LmVtb2wuY2wvbG9z/LTIwMDAvZmlsZXMv/MjAyMS8wNC9UaGVf/U3Ryb2tlc18tX0lz/X1RoaXNfSXQuanBn',
+      img: 'https://imgs.search.brave.com/lSHSutfc3di4Lm3CwxEKBmownc9IhwFQLtvwojrfXrM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZGlzY29ncy5jb20v/Y1BYOXVxY00tRHFZ/U3g0RU1YamRGMXpE/cFg4PS9maXQtaW4v/NTAweDM0OC9maWx0/ZXJzOnN0cmlwX2lj/YygpOmZvcm1hdChq/cGVnKTptb2RlX3Jn/YigpOnF1YWxpdHko/OTApL2Rpc2NvZ3Mt/aW1hZ2VzL1ItMzE4/OTk2Ni0xMzIyOTY5/NDQ3LmpwZWcuanBn',
       reason:
         'Su debut Is This It (2001) trajo de vuelta el interés por el rock alternativo',
     },
