@@ -1,4 +1,17 @@
-
 <div class="main-home-container">
   <app-nav-bar></app-nav-bar>
+  <app-about-the-strokes></app-about-the-strokes>
+  <div class="box-reason">
+    <div class="title-ask-reason-container">
+      <div class="line"></div>
+      <h2>¿Por qué escuchar The Strokes?</h2>
+      <div class="line"></div>
+    </div>
+    <div class="reason-box">
+      <app-cards-reasons *ngFor="let item of reasons" [imgSrc]="item.img" [reason]="item.reason"></app-cards-reasons>
+    </div>
+  </div>
 </div>
+
+
+

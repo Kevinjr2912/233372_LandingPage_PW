@@ -1,0 +1,31 @@
+<div class="main-container">
+  <div class="main-about-ts-container">
+    <div class="about-ts-container">
+      <h2>Acerca de The Strokes</h2>
+      <p>The Strokes es una banda de rock estadounidense que nace hacia finales de los 90 con cinco chicos de familias "bien".Se trata de una banda que canta y edita canciones tanto de género rock, como de rock alternativo o del conocido habitualmente como garage rock.</p>
+    </div>
+    <div class="img-container">
+      <img src="https://imgs.search.brave.com/5DAjY6_RJFLs91DKNRzHb0KRkaEBVr1UIt-3rZ--m3g/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5waXRjaGZvcmsu/Y29tL3Bob3Rvcy82/MjllMTA4ZjdiMTIz/MmIzYzFlNWUzZjMv/MTY6OS93XzgwMCxo/XzQ1MCxjX2xpbWl0/L1RoZS1TdHJva2Vz/LUp1bGlhbi1DYXNh/YmxhbmNhcy5qcGc" alt="The Strokes" width="200px">
+    </div>
+  </div>
+
+  <div class="secundary-container">
+    <h1>Integrantes</h1>
+    <div class="members-container">
+      <app-cards-members *ngFor="let image of images" [imgSrc]="image.src" [nameMember]="image.name"></app-cards-members>
+    </div>
+  </div>
+
+  <div class="recognition-container">
+    <div class="img-r-container">
+      <img src="https://i8.amplience.net/i/naras/gettyimages-112763374.jpg.jpg" alt="">
+    </div>
+    <div class="information-recognition-container">
+      <h1>Reconocimiento en la sociedad</h1>
+      <p>Una vez integrados por completo en 1999, al poco tiempo se dan a conocer en bares y eventos de New York y pronto ganan el nombre de Salvadores del Rock  . En 2001 lanzan su primer EP The Modern, bajo Rough Trade. El éxito que esta tuvo los llevo a firmar ese mismo año con RCA, sello con el que lanzaron su primer y exitoso álbum This It (2001).</p>
+    </div>
+  </div>
+
+</div>
+
+
