@@ -1,0 +1,35 @@
+.nav-bar {
+  background-color: rgba(23, 27, 57, 1);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 850px;
+}
+
+.title-container {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+}
+
+.list-actions {
+  list-style: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(244, 195, 0, 1);
+  display: flex;
+  gap: 100px;
+}
+
+.list-actions li {
+  border-bottom: 1.5px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.list-actions li:hover {
+  border-bottom-color: rgb(230, 208, 10);
+}
+
+.list-actions:hover {
+  cursor: pointer;
+}
