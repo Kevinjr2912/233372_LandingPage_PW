@@ -10,6 +10,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { AboutTheStrokesComponent } from './about-the-strokes/about-the-strokes.component';
 import { CardsMembersComponent } from './cards-members/cards-members.component';
 import { CardsReasonsComponent } from './cards-reasons/cards-reasons.component';
+import { CardsAlbumesComponent } from './cards-albumes/cards-albumes.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CardsReasonsComponent } from './cards-reasons/cards-reasons.component';
     NavBarComponent,
     AboutTheStrokesComponent,
     CardsMembersComponent,
-    CardsReasonsComponent
+    CardsReasonsComponent,
+    CardsAlbumesComponent
   ],
   imports: [
     BrowserModule,

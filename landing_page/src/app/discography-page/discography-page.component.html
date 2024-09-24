@@ -1,5 +1,21 @@
+<app-nav-bar></app-nav-bar>
 <div class="box-container">
   <div class="box-title">
-    
+    <h1>Álbumes</h1>
+  </div>
+  <div class="box-first-album">
+    <h2>Is this it</h2>
+    <div class="container-information">
+      <div class="container-img">
+        <a href="https://open.spotify.com/intl-es/album/2yNaksHgeMQM9Quse463b5?si=bAAsmv3VTzu2Fedevwb6jA"><img src="assets/img/isthis.jpg" alt=""></a>
+      </div>
+      <div class="container-album">
+        <p>Is This It es el álbum debut de la banda indie-rock estadounidense The Strokes, publicado en el año 2001.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="box-albumes">
+    <app-cards-albumes *ngFor="let item of images" [title]="item.title" [imgSrc]="item.image" [content]="item.content" [href]="item.href"></app-cards-albumes>
   </div>
 </div>
