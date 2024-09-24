@@ -11,6 +11,7 @@ import { AboutTheStrokesComponent } from './about-the-strokes/about-the-strokes.
 import { CardsMembersComponent } from './cards-members/cards-members.component';
 import { CardsReasonsComponent } from './cards-reasons/cards-reasons.component';
 import { CardsAlbumesComponent } from './cards-albumes/cards-albumes.component';
+import { CardsArtistsComponent } from './cards-artists/cards-artists.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CardsAlbumesComponent } from './cards-albumes/cards-albumes.component';
     AboutTheStrokesComponent,
     CardsMembersComponent,
     CardsReasonsComponent,
-    CardsAlbumesComponent
+    CardsAlbumesComponent,
+    CardsArtistsComponent
   ],
   imports: [
     BrowserModule,

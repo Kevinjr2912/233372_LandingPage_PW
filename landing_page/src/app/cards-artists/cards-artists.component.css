@@ -1,0 +1,29 @@
+.box-main {
+  width: 800px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(244, 195, 0, 1);
+  margin-bottom: 100px;
+}
+
+.box-img {
+  width: 350px;
+}
+
+.box-img img {
+  width: 100%;
+}
+
+.information-artist {
+  color: white;
+}
+
+.information-artist h2 {
+  color: rgba(244, 195, 0, 1);
+}
+
+.information-artist p {
+  font-size: 22px;
+}
