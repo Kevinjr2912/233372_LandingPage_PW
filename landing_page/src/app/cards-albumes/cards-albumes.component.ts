@@ -10,4 +10,5 @@ export class CardsAlbumesComponent {
   @Input() content: string = ''
   @Input() title: string = ''
   @Input() href: string = ''
+  @Input() cardClass: string = ''
 }

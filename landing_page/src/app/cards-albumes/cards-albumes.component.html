@@ -1,11 +1,11 @@
-<div class="box-first-album">
+<a [ngClass]="cardClass" [href]="href">
   <h2>{{title}}</h2>
   <div class="container-information">
     <div class="container-img">
-      <a [href]="href"><img [src]="imgSrc" alt=""></a>
+      <img [src]="imgSrc" alt="">
     </div>
     <div class="container-album">
       <p>{{content}}</p>
     </div>
   </div>
-</div>
+</a>

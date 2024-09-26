@@ -6,7 +6,10 @@
 }
 
 .box-title {
+  color: rgb(255, 255, 255);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding: 1px;
+  font-size: 15px;
 }
 
 .box-first-album {
@@ -21,6 +24,8 @@
   align-items: center;
   justify-content: center;
   border-radius: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
 }
 
 .box-first-album:hover {
@@ -63,6 +68,8 @@
 
 .container-album p {
   color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 19px;
   font-size: 20px;
   line-height: 30px;
 }
