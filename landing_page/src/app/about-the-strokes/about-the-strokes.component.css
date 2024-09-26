@@ -17,11 +17,13 @@
 }
 
 .about-ts-container h2 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 30px;
 }
 
 .about-ts-container p {
   font-size: 23px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .img-container {
@@ -51,6 +53,7 @@
 
 .secundary-container h1 {
   color: rgba(244, 195, 0, 1);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 30px;
   font-weight: bolder;
   margin-top: 20px;
@@ -88,6 +91,11 @@
   width: 1200px;
 }
 
-.information-recognition-container p{
+.information-recognition-container h1 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.information-recognition-container p {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 21px;
 }
