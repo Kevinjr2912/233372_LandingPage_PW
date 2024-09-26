@@ -26,8 +26,9 @@
   background-color: #888;
 }
 
-.title-ask-reason-container h2 {
-  font-size: 25px;
+.title-ask-reason-container h3 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 22px;
   font-weight: bold;
   color: #ffffff;
 }
