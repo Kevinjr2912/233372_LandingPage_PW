@@ -1,4 +1,3 @@
-<app-nav-bar></app-nav-bar>
 <div class="box-container">
   <div class="box-title">
     <h1>ARTITASTE QUE MÁS INFLUENCIARON A THE STROKES</h1>
@@ -7,6 +6,6 @@
     <p>The Strokes han citado a varias bandas y artistas como influencias clave en su música. Algunos de los más destacados son:</p>
   </div>
   <div class="artist-influence-box">
-    <app-cards-artists *ngFor="let item of artists" [imgSrc]="item.img" [nameArtist]="item.name" [infoInfluence]="item.content"></app-cards-artists>
+    <app-cards-artists *ngFor="let item of artists" [imgSrc]="item.urlImg" [nameArtist]="item.name" [infoInfluence]="item.content"></app-cards-artists>
   </div>
 </div>
