@@ -17,34 +17,14 @@
       />
     </div>
   </div>
-
   <div class="secundary-container">
     <h1>INTEGRANTES</h1>
     <div class="members-container">
       <app-cards-members
         *ngFor="let image of images"
-        [imgSrc]="image.src"
+        [imgSrc]="image.urlImg"
         [nameMember]="image.name"
       ></app-cards-members>
-    </div>
-  </div>
-
-  <div class="recognition-container">
-    <div class="img-r-container">
-      <img
-        src="https://i8.amplience.net/i/naras/gettyimages-112763374.jpg.jpg"
-        alt=""
-      />
-    </div>
-    <div class="information-recognition-container">
-      <h1>RECONOCIMIENTO EN LA SOCIEDAD</h1>
-      <p>
-        Una vez integrados por completo en 1999, al poco tiempo se dan a conocer
-        en bares y eventos de New York y pronto ganan el nombre de Salvadores
-        del Rock . En 2001 lanzan su primer EP The Modern, bajo Rough Trade. El
-        éxito que esta tuvo los llevo a firmar ese mismo año con RCA, sello con
-        el que lanzaron su primer y exitoso álbum This It (2001).
-      </p>
     </div>
   </div>
 </div>

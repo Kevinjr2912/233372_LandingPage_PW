@@ -12,6 +12,7 @@ import { CardsMembersComponent } from './cards-members/cards-members.component';
 import { CardsReasonsComponent } from './cards-reasons/cards-reasons.component';
 import { CardsAlbumesComponent } from './cards-albumes/cards-albumes.component';
 import { CardsArtistsComponent } from './cards-artists/cards-artists.component';
+import { RecognitionInSocietyComponent } from './recognition-in-society/recognition-in-society.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { CardsArtistsComponent } from './cards-artists/cards-artists.component';
     CardsMembersComponent,
     CardsReasonsComponent,
     CardsAlbumesComponent,
-    CardsArtistsComponent
+    CardsArtistsComponent,
+    RecognitionInSocietyComponent
   ],
   imports: [
     BrowserModule,
