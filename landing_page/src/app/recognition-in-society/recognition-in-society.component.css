@@ -1,5 +1,5 @@
 .recognition-container {
-    background-color: rgba(157, 157, 157, 1);
+    background-color: #1d6c74;
     width: 1620px;
     min-height: 250px;
     display: flex;
@@ -22,6 +22,7 @@
   .information-recognition-container {
     margin-left: 40px;
     width: 1200px;
+    color: white;
   }
   
   .information-recognition-container h1 {

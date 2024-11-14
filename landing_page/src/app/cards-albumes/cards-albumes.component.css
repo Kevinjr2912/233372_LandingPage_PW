@@ -13,7 +13,7 @@
 
 .box-album-b {
   color: white;
-  background-color: black;
+  background-color: rgb(18, 18, 18);
 }
 
 .box-album-b h2 {
@@ -21,8 +21,8 @@
 }
 
 .box-album-g {
-  color: black;
-  background-color: rgb(131, 131, 131)
+  color: rgb(255, 255, 255);
+  background-color: #1d6c74;
 }
 
 .box-album-g h2 {
